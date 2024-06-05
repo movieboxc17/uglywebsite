@@ -1,1 +1,111 @@
-test...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Uglier Website</title>
+    <style>
+        /* Set an ugly background color for the entire site */
+        body {
+            background-color: #FFA500; /* Orange background color */
+        }
+
+        /* CSS styles for ugly buttons */
+        .ugly-button {
+            background-color: #FF0000; /* Red background color */
+            border: 2px solid #000000; /* Thick black border */
+            padding: 8px 16px; /* Smaller padding */
+            font-size: 12px; /* Smaller font size */
+            color: #00FF00; /* Green text color */
+            cursor: crosshair; /* Crosshair cursor on hover */
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            border-radius: 50%; /* Oval shape */
+            margin: 10px;
+            text-transform: uppercase; /* Uppercase text */
+        }
+
+        /* Styling on hover for ugly buttons */
+        .ugly-button:hover {
+            background-color: #0000FF; /* Blue background color on hover */
+            border: 2px solid #FFFF00; /* Yellow border on hover */
+            color: #FF00FF; /* Magenta text color on hover */
+            text-decoration: underline; /* Underline text on hover */
+        }
+
+        /* Styling for ugly text */
+        .ugly-text {
+            color: #FF4500; /* Orange text color */
+            font-size: 24px; /* Larger font size */
+            text-transform: uppercase; /* Uppercase text */
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Styling for ugly copyright notice */
+        .ugly-copyright {
+            color: #800080; /* Purple text color */
+            font-size: 12px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Styling for the code examples */
+        .code-example {
+            background-color: #FFD700; /* Gold background color */
+            border: 2px solid #000000; /* Black border */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px; /* Rounded corners */
+            overflow-x: auto; /* Add horizontal scrollbar if needed */
+        }
+
+        /* Styling for the code inside pre tags */
+        pre {
+            white-space: pre-wrap; /* Preserve whitespace and wrap lines */
+            font-family: 'Courier New', monospace; /* Monospace font for code */
+        }
+    </style>
+</head>
+<body>
+    <p class="ugly-text">Welcome to our Ugly Website</p>
+
+    <a href="index.html" class="ugly-button">Back to home page</a>
+   
+    <div id="java-section" class="code-example">
+        <h2 class="ugly-text">Java Basics</h2>
+        <p>Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible.</p>
+        <p>Example:</p>
+        <pre>
+            <code>
+                // Print Hello, World! to the console
+                public class HelloWorld {
+                    public static void main(String[] args) {
+                        System.out.println("Hello, World!");
+                    }
+                }
+
+                // Variables and basic operations
+                public class BasicOperations {
+                    public static void main(String[] args) {
+                        int x = 5;
+                        int y = 10;
+                        int z = x + y;
+                        System.out.println("Sum: " + z);
+
+                        // Conditional statements
+                        if (x > y) {
+                            System.out.println("x is greater than y");
+                        } else {
+                            System.out.println("y is greater than x");
+                        }
+                    }
+                }
+            </code>
+        </pre>
+    </div>
+
+    <p class="ugly-copyright">&copy; 2024 Ugly Website. All rights reserved.</p>
+</body>
+</html>
